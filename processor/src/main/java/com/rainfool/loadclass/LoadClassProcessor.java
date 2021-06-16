@@ -48,7 +48,7 @@ public class LoadClassProcessor extends AbstractProcessor {
             try {
                 javaFile.writeTo(filer);
             } catch (IOException e) {
-                e.printStackTrace();
+//                e.printStackTrace();
             }
         }
     }
@@ -72,7 +72,7 @@ public class LoadClassProcessor extends AbstractProcessor {
         try {
             javaFile.writeTo(filer);
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 
